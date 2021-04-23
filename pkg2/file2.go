@@ -1,4 +1,4 @@
-package main
+package pkg2
 
 import (
 	"fmt"
@@ -6,9 +6,9 @@ import (
 )
 
 
-func main(){
+func Hello2(){
 
-	fmt.Println("In main of module test1")
+	fmt.Println("In Hello2 of module test1")
 	mystr := pkg1.Hello()
 	fmt.Println(mystr)
 }
